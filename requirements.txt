@@ -1,2 +1,1 @@
-Requirements for App
-- Gradio
+gradio
