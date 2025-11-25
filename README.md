@@ -13,9 +13,35 @@ I chose to create a visual simulation of a binary search algorithm because it us
 ### 4 Pillars of Computational Thinking
 
 #### Decomposition
+- Input: User provides a sorted list and a target number
 
+- Validate input (numbers only, sorted, ≤100 elements)
+
+- Initialize search bounds (lower = 0, upper = len(list)-1)
+
+- While lower ≤ upper:
+
+- - Compute mid = (lower + upper) // 2
+
+- - Compare arr[mid] to target
+
+- - Update bounds accordingly
+
+- - Record current step for visualization
+
+- Output: Target index or “not found”
 
 #### Pattern Recognition
+
+- Repeatedly calculate mid
+
+- Compare arr[mid] to target
+
+- Adjust lower or upper depending on comparison
+
+- Stop when target is found or range is exhausted
+
+- Track steps for graph and code highlighting
 
 #### Abstraction
 
