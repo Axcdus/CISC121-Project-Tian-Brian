@@ -1,1 +1,3 @@
-gradio
+gradio>=3.40
+matplotlib>=3.7
+Pillow>=10.0
