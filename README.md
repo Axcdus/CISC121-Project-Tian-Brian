@@ -2,7 +2,6 @@
 
 # Binary Search Visualisation
 
-
 ## Demo video/gif/screenshot of test
 Video: https://youtu.be/WAU5plzJGvM
 
@@ -14,80 +13,48 @@ I chose to create a visual simulation of a binary search algorithm because it us
 
 #### Decomposition
 - Input: User provides a sorted list and a target number
-
 - Validate input (numbers only, sorted, ≤100 elements)
-
 - Initialize search bounds (lower = 0, upper = len(list)-1)
-
 - While lower ≤ upper:
-
 - - Compute mid = (lower + upper) // 2
-
 - - Compare arr[mid] to target
-
 - - Update bounds accordingly
-
 - - Record current step for visualization
-
 - Output: Target index or “not found”
 
 #### Pattern Recognition
-
 - Repeatedly calculate mid
-
 - Compare arr[mid] to target
-
 - Adjust lower or upper depending on comparison
-
 - Stop when target is found or range is exhausted
-
 - Track steps for graph and code highlighting
 
 #### Abstraction
 - Show to user:
-
 - - Current search range (lower → upper)
-
 - - mid element being checked
-
 - - Step-by-step movement left/right
-
 - - Found/not found status
-
 - Hide:
-
 - - Internal loop counters, temporary variables
-
 - - Exact memory addresses or unnecessary internal calculations
 
 #### Algorithm Design
 - Input → Processing → Output flow:
-
 - - Input: Textbox for sorted list, numeric target
-
 - - Processing: Binary search logic records steps
-
 - - Output:
-
 - - - Graph visualization of array, search range, and mid
-
 - - - Code highlighting current step
-
 - - - Result text (target index or not found)
-
 - - GUI: Buttons for “Start”, “Next Step”, “Previous Step”, “Generate Random List”
  
 #### Datatypes & Structures
 - Input: String of numbers (comma-separated) → parsed to integer list
-
 - Target: Integer
-
 - Steps stored as list of tuples: (arr, lower, upper, mid, target, found_index)
-
 - Visualization:
-
 - - Graph image (PIL Image)
-
 - - Code step image (PIL Image)
 
 #### Flowchart
@@ -106,11 +73,8 @@ https://huggingface.co/spaces/Axcdus/binary-search-visualiser
 ## Author & Acknowledgment
 #### Author
 - Brian Tian
-
 - CISC 121 Sec 2
-
 - Professor: Dr. Ruslan
-
 - Project: Binary Search Visualization Tool
 
 #### Acknowledgements
